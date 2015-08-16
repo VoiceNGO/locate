@@ -1,0 +1,14 @@
+{
+  "name": "locate",
+  "version": "0.0.1",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "promise-repeat": "0.3.x",
+    "protobufjs": "^4.0.0",
+    "request-promise": "0.4.x",
+    "rx": "2.5.x"
+  },
+  "devDependencies": {
+    "app-module-path": "1.0.x"
+  }
+}

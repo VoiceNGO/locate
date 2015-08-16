@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+message Locate {
+  string name = 1;
+  int32  port = 2;
+
+  repeated Domain domains = 3;
+
+  message Domain {
+    string  name = 1;
+    SSLCert cert = 2;
+
+    // 80/443 is used if no ports are specified
+    repeated Port   ports      = 3;
+    repeated Domain subdomains = 4;
+
+    message Port {
+      int32 port    = 1;
+      int32 sslPort = 2;
+    }
+
+    message SSLCert {
+      string certFile = 1;
+    }
+  }
+}
