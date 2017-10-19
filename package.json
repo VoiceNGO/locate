@@ -2,6 +2,7 @@
   "name": "locate",
   "version": "0.0.1",
   "main": "./lib/index.js",
+  "license": "MIT",
   "dependencies": {
     "promise-repeat": "0.3.x",
     "protobufjs": "^4.0.0",
