@@ -1,11 +1,10 @@
 {
   "name": "locate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./lib/index.js",
   "license": "MIT",
   "dependencies": {
     "promise-repeat": "0.3.x",
-    "protobufjs": "^4.0.0",
     "request-promise": "0.4.x",
     "rx": "2.5.x"
   },
